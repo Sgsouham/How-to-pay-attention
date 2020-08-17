@@ -23,8 +23,11 @@ Though the actual architecture is much more complex.
 
 ### The main Components
 
-    Q) What are this big blocks with xN written beside them?
+    Q) What are this big blocks with Nx written beside them?
     A) The left block denotes the Encoder and the right part denotes the Decoder.
+    
+    Q) What are the component of these blocks?
+    A) The concept of MultiHead Attention is the main. It contains the scaled dot product of self-attention to generalize the "attentive portions over a varied          (query, key, value) set. 
     
     
     
