@@ -11,8 +11,10 @@ The paper also used a concept known as Attention and showed that only attention 
 The folder shows a simple self attention block with a layer norm over the sum of residual connection of the input and the self attention and how this small part can be used for classifying text or generating new text.
 
 - Classify text
+
     Doesnt contain any masking.
 - Generate Text
+
     Contains masking of the texts to predict the next word.
     
 
