@@ -53,7 +53,7 @@ class SelfAttention(nn.Module):
 
         out= out.transpose(1,2).contiguous().view(b,t,h*k)
         return self.outhead(out)
-
+#More of a single encoder block, the idea is to use the self attention block and layer norm with the residual connection.
 class TransformerBlock(nn.Module):
     def __init__(self,k,head,mask_):
         super().__init__()
@@ -73,10 +73,3 @@ class TransformerBlock(nn.Module):
 
         mlp = self.ff(x)
         out = self.norm2(mlp+x)
-        
-
-        
-
-
-    
-
