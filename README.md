@@ -17,5 +17,13 @@ The folder shows a simple self attention block with a layer norm over the sum of
 
     Contains masking of the texts to predict the next word.
     
+Though the actual architecture is much more complex.
+
+![image](https://miro.medium.com/max/1252/1*JuGZaZcRtmrtCEPY8qfsUw.png)
+
+### The main Components
+
+
+    
 
 
