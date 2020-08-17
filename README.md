@@ -23,7 +23,10 @@ Though the actual architecture is much more complex.
 
 ### The main Components
 
-
+    Q) What are this big blocks with xN written beside them?
+    A) The left block denotes the Encoder and the right part denotes the Decoder.
+    
+    
     
 
 
